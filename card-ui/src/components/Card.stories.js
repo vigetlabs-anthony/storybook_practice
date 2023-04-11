@@ -3,6 +3,9 @@ import Card from "./Card";
 export default {
   title: "Example/Card",
   component: Card,
+  parameters: {
+    // layout: "centered",
+  },
 };
 
 export const Primary = {
@@ -17,8 +20,8 @@ export const SignedIn = {
   },
 };
 
-export const Hidden = {
+export const Loading = {
   args: {
-    hidden: true,
+    isLoading: true,
   },
 };
